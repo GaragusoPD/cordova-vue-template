@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "the_aceix",
+  "author": "the_aceix <aceixsmartx@gmail.com> (http://theaceix.site)",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.2",

@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Aceix"
+    "url": "https://github.com/Aceix/cordova-vue-template"
   },
-  "homepage": "https://github.com/Aceix",
+  "homepage": "https://github.com/Aceix/cordova-vue-template",
   "keywords": [
     "ecosystem:cordova",
     "cordova:template"
   ],
-  "author": "the_aceix",
+  "author": "the_aceix <aceixsmartx@gmail.com> (http://theaceix.site)",
   "license": "MIT"
 }
 

@@ -1,0 +1,23 @@
+{
+  "name": "cordova-vue-template",
+  "displayName": "CordovaVueTemplate",
+  "version": "1.0.0",
+  "description": "A simple Cordova+Vue+Webpack customizable boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "the_aceix",
+  "license": "MIT",
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^3.0.2",
+    "vue-webpack-loaders": "^1.0.6",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "vue": "^2.5.8"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ]
+}

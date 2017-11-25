@@ -1,0 +1,21 @@
+{
+  "name": "cordova-vue-template",
+  "version": "1.0.0",
+  "description": "A flexible boilerplate for Apache Cordova and Vue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aceix"
+  },
+  "homepage": "https://github.com/Aceix",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova:template"
+  ],
+  "author": "the_aceix",
+  "license": "MIT"
+}
+

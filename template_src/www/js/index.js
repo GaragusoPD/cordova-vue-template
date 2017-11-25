@@ -1,5 +1,9 @@
 import Vue from 'vue';
 
+// component imports
+import App from '../assets/components/App.vue';
+
+
 var app = {
   // Application Constructor
   initialize: function () {
@@ -29,9 +33,6 @@ var app = {
 
   // function to initialise VueJS
   setupVue: function () {
-    // component imports
-    import App from '../assets/components/App.vue';
-
     const vm = new Vue({
       el: '#app',
       components: {

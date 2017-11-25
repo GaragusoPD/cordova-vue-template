@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 * {
   -webkit-tap-highlight-color: rgba(
     0,
@@ -46,7 +46,7 @@ body {
 
 /* Portrait layout (default) */
 #app {
-  background: url(../assets/img/logo.png) no-repeat center top; /* 170px x 200px */
+  background: url('../img/logo.png') no-repeat center top; /* 170px x 200px */
   position: absolute; /* position in the center of the screen */
   left: 50%;
   top: 50%;
@@ -132,6 +132,14 @@ export default {
     return {
       heading: 'Cordova + Vue.js'
     }
+  },
+  methods: {
+    reverse: function(){
+      this.heading = this.heading.split('').reverse().join('');
+    }
+  },
+  mounted(){
+    setInterval(this.reverse, 3000);
   }
 }
 </script>
